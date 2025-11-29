@@ -23,6 +23,14 @@ li {
   padding: 18px calc(18px * 1.5);
   border-right: 2px solid white;
 }
+li {
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #b90e4d;
+}
+
 
 .left li:last-child {
   border-right: none;
